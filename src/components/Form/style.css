@@ -26,6 +26,10 @@ form > input {
   border-radius: 0.35rem;
 }
 
+form > input:focus {
+  outline-color: #00bfff;
+}
+
 .control-wrapper {
   display: flex;
   align-items: center;
