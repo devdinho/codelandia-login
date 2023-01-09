@@ -7,7 +7,7 @@ const Form = () => {
       <label htmlFor="email">Email</label>
       <input type="text" id="email" placeholder="codelandia@gmail.com"/>
       <label htmlFor="senha">Senha</label>
-      <input type="text" id="senha" placeholder="*********"/>
+      <input type="password" id="senha" placeholder="*********"/>
       <div className="control-wrapper">
         <input type="checkbox" id="radio"></input>
         <label htmlFor="radio">Lembre de mim</label>
