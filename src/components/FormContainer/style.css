@@ -1,7 +1,9 @@
 .form-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
   background-color: #FFFFFF;
+  padding: 71px 33px 52px;
+  flex: 1;
 }

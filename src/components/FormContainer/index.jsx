@@ -2,7 +2,9 @@ import "./style.css";
 
 const FormContainer = ({ children }) => {
   return (
-    <div className="form-container">{ children }</div>
+    <div className="form-container">
+      { children }
+    </div>
   )
 };
 
