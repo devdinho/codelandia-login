@@ -4,7 +4,9 @@ const FormWrapper = ({ children }) => {
   return (
     <div className="form-wrapper">
       <p>Bem vindo de volta</p>
-      <h1>Faça login na sua conta</h1>
+      <h1>
+        Faça login na sua conta
+      </h1>
       { children }
       <span>
         Não tem uma conta?

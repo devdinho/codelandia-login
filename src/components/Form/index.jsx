@@ -1,3 +1,4 @@
+import GoogleLogo from '../GoogleLogo';
 import "./style.css";
 
 const Form = () => {
@@ -13,7 +14,11 @@ const Form = () => {
         <a href="#">Esqueceu de mim?</a>
       </div>
       <button type="submit">Entrar</button>
-      <button>Ou faça login com o Google</button>
+      
+      <button>
+        <GoogleLogo />
+        Ou faça login com o Google
+      </button>
     </form>
   )
 };

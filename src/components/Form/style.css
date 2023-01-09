@@ -80,6 +80,10 @@ form button:first-of-type {
 }
 
 form button:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
   background-color: #1A202C;
 }
 
