@@ -2,3 +2,88 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+form > label,
+form > input:not(:last-of-type) {
+  margin-bottom: 0.688rem;
+}
+
+form > label {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1A202C;
+}
+
+form > input {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #1A202C;
+  padding: 14px 20px;
+  border: 1px solid #E8E8E8;
+  border-radius: 0.35rem;
+}
+
+.control-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+}
+
+.control-wrapper input {
+  margin-right: 11px;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #E8E8E8;
+  border-radius: 50%;
+  background-color: #F7FAFC;
+}
+
+.control-wrapper input:hover {
+  border: 1px solid #2B6CB0;
+}
+
+.control-wrapper label {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-weight: 0.875rem;
+  color: #1A202C;
+}
+
+.control-wrapper a {
+  margin-left: auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  /* line-height: 1rem; */
+  color: #2B6CB0;
+  text-decoration: none;
+}
+
+form button {
+  padding: 15px 0 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  /* line-height: 1.25rem; */
+  border-radius: 0.35rem;
+  color: #FFFFFF;
+  border: none;
+}
+
+form button:first-of-type {
+  background-color: #04C35C;
+  margin-bottom: 0.95rem;
+}
+
+form button:last-of-type {
+  background-color: #1A202C;
+}
+
+::placeholder {
+  color: #1A202C;
+  font-size: 1rem;
+}
